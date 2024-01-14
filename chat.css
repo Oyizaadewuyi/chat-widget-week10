@@ -1,0 +1,29 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500 !important;
+    margin-top: 20%;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 0.5px;
+    padding-left: 30%;
+
+}
+
+img {
+    max-width: 100%;
+    margin-left: 10%;
+}
+
+.chat-header {
+    width: 40%;
+    height: 10%;
+    border-bottom: none;
+    display: flex;
+    background-color: #3047EC;
+    border: 1px solid #3047EC;
+}
+
