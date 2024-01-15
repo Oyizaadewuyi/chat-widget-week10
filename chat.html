@@ -29,7 +29,7 @@
                 d="M213.66,165.66a8,8,0,0,1-11.32,0L128,91.31,53.66,165.66a8,8,0,0,1-11.32-11.32l80-80a8,8,0,0,1,11.32,0l80,80A8,8,0,0,1,213.66,165.66Z">
             </path>
         </svg></button>
-        <main class="chat-container hidden">
+        <main class="chat-container">
                 <div class="chat-header">
                     <div class="header-content">
                         <img class="arrow" src="images/.png" alt="arrow">
@@ -43,14 +43,28 @@
                         </div>
                     </div>
                 </div>
+                <ul class="chatbox">
+                    <li class="chat incoming">
+                        <span class="symbol">
+                            <img src="images/Avatars.png" alt="photo">
+                        </span>
+                        <p>👋 Hi there! How can I help?</p>
+                    </li>
+                    <li class="chat outgoing">
+                        <p>I’m sorry bot, but you’re wrong</p>
+                        
+                    </li>
+                </ul>
                 <div id="chat-box"></div>
                 <form action="">
                     <div class="form-container">
                         <input type="text" placeholder="Type a reply...">
                         <div class="icon-container">
-                            <img src="./images/gif-icon.svg" alt="gif-icon">
-                            <img src="./images/emoji-icon.svg" alt="emoji-icon">
-                            <img src="./images/attach-icon.svg" alt="attach-icon">
+                            <img src="images/gif-icon.svg" alt="gif-icon">
+                            <img src="images/smilei-icon.svg" alt="emoji-icon">
+                            <img src="images/attached-icon.svg" alt="attach-icon">
+               
+        
                         </div>
                     </div>
                 </form>
@@ -60,6 +74,4 @@
     
     </html>
 
-       <script src="chat.js"></script>
-</body>
-</html>
+       
